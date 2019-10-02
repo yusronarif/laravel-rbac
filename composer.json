@@ -53,6 +53,9 @@
       "providers": [
         "Yusronarif\\RBAC\\PermissionServiceProvider"
       ]
+    },
+    "branch_alias": {
+      "dev-master": "2.0.x-dev"
     }
   },
   "scripts": {
