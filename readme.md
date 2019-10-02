@@ -13,6 +13,8 @@ Origin forked from [```spatie/laravel-permission```](https://github.com/spatie/l
 </table> -->
 
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Latest Version](https://img.shields.io/github/release/yusronarif/laravel-rbac.svg?style=flat-square)](https://github.com/yusronarif/laravel-rbac/releases)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
 [![Build Status](https://img.shields.io/travis/yusronarif/laravel-rbac/master.svg?style=flat-square)](https://travis-ci.org/yusronarif/laravel-rbac)
 [![StyleCI](https://github.styleci.io/repos/212236944/shield)](https://github.styleci.io/repos/212236944)
