@@ -13,12 +13,16 @@ Origin forked from [```spatie/laravel-permission```](https://github.com/spatie/l
 </table> -->
 
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Latest Version](https://img.shields.io/github/release/yusronarif/laravel-rbac.svg?style=flat-square)](https://github.com/yusronarif/laravel-rbac/releases)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
-[![Build Status](https://img.shields.io/travis/yusronarif/laravel-rbac/master.svg?style=flat-square)](https://travis-ci.org/yusronarif/laravel-rbac)
+[![Software License](https://img.shields.io/github/license/yusronarif/laravel-rbac?color=green-light&logo=github&style=flat-square)](LICENSE)
+[![Latest Version](https://img.shields.io/github/v/release/yusronarif/laravel-rbac.svg?logo=github&style=flat-square&sort=semver)](https://github.com/yusronarif/laravel-rbac/releases)
+[![Packagist Version](https://img.shields.io/packagist/v/yusronarif/laravel-rbac?logo=composer&style=flat-square&sort=semver)](https://packagist.org/packages/yusronarif/laravel-rbac)
+[![Build Status](https://img.shields.io/travis/yusronarif/laravel-rbac/master.svg?logo=travis-ci&style=flat-square)](https://travis-ci.org/yusronarif/laravel-rbac)
 [![StyleCI](https://github.styleci.io/repos/212236944/shield)](https://github.styleci.io/repos/212236944)
-[![Total Downloads](https://img.shields.io/packagist/dt/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
+[![Total Downloads](https://img.shields.io/packagist/dt/yusronarif/laravel-rbac?logo=composer&style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
+
+[![GitHub forks](https://img.shields.io/github/forks/yusronarif/laravel-rbac?style=social)](https://github.com/yusronarif/laravel-rbac)
+[![GitHub stars](https://img.shields.io/github/stars/yusronarif/laravel-rbac?style=social)](https://github.com/yusronarif/laravel-rbac)
+
 
 This package allows you to manage user permissions and roles in a database.
 
