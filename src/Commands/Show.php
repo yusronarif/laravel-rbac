@@ -3,8 +3,8 @@
 namespace Yusronarif\RBAC\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Support\Collection;
 use Yusronarif\RBAC\Models\Role;
+use Illuminate\Support\Collection;
 use Yusronarif\RBAC\Models\Permission;
 
 class Show extends Command
