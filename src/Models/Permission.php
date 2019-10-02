@@ -8,10 +8,10 @@ use Yusronarif\RBAC\Traits\HasRoles;
 use Illuminate\Database\Eloquent\Model;
 use Yusronarif\RBAC\PermissionRegistrar;
 use Yusronarif\RBAC\Traits\RefreshesPermissionCache;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Yusronarif\RBAC\Exceptions\PermissionDoesNotExist;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Yusronarif\RBAC\Exceptions\PermissionAlreadyExists;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Yusronarif\RBAC\Contracts\Permission as PermissionContract;
 
 class Permission extends Model implements PermissionContract
