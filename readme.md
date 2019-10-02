@@ -15,7 +15,7 @@ Origin forked from [```spatie/laravel-permission```](https://github.com/spatie/l
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
 [![Build Status](https://img.shields.io/travis/yusronarif/laravel-rbac/master.svg?style=flat-square)](https://travis-ci.org/yusronarif/laravel-rbac)
-[![StyleCI](https://styleci.io/repos/42480275/shield)](https://styleci.io/repos/42480275)
+[![StyleCI](https://github.styleci.io/repos/212236944/shield)](https://github.styleci.io/repos/212236944)
 [![Total Downloads](https://img.shields.io/packagist/dt/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
 
 This package allows you to manage user permissions and roles in a database.
