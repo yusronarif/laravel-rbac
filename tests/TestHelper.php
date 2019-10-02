@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

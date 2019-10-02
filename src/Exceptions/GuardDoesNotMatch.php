@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Exceptions;
+namespace Yusronarif\RBAC\Exceptions;
 
 use InvalidArgumentException;
 use Illuminate\Support\Collection;

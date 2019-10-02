@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission;
+namespace Yusronarif\RBAC;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Collection;
-use Spatie\Permission\Contracts\Role;
+use Yusronarif\RBAC\Contracts\Role;
 use Illuminate\Contracts\Auth\Access\Gate;
-use Spatie\Permission\Contracts\Permission;
+use Yusronarif\RBAC\Contracts\Permission;
 use Illuminate\Contracts\Auth\Access\Authorizable;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+use Yusronarif\RBAC\Exceptions\PermissionDoesNotExist;
 
 class PermissionRegistrar
 {
@@ -148,7 +148,7 @@ class PermissionRegistrar
     /**
      * Get an instance of the permission class.
      *
-     * @return \Spatie\Permission\Contracts\Permission
+     * @return \Yusronarif\RBAC\Contracts\Permission
      */
     public function getPermissionClass(): Permission
     {
@@ -165,7 +165,7 @@ class PermissionRegistrar
     /**
      * Get an instance of the role class.
      *
-     * @return \Spatie\Permission\Contracts\Role
+     * @return \Yusronarif\RBAC\Contracts\Role
      */
     public function getRoleClass(): Role
     {

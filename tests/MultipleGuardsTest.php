@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
-use Spatie\Permission\Models\Permission;
+use Yusronarif\RBAC\Models\Permission;
 
 class MultipleGuardsTest extends TestCase
 {

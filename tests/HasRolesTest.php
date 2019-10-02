@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Yusronarif\RBAC\Contracts\Role;
+use Yusronarif\RBAC\Exceptions\RoleDoesNotExist;
+use Yusronarif\RBAC\Exceptions\GuardDoesNotMatch;
 
 class HasRolesTest extends TestCase
 {

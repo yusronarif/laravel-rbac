@@ -3,11 +3,11 @@ title: Basic Usage
 weight: 1
 ---
 
-First, add the `Spatie\Permission\Traits\HasRoles` trait to your `User` model(s):
+First, add the `Yusronarif\RBAC\Traits\HasRoles` trait to your `User` model(s):
 
 ```php
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Spatie\Permission\Traits\HasRoles;
+use Yusronarif\RBAC\Traits\HasRoles;
 
 class User extends Authenticatable
 {
@@ -21,7 +21,7 @@ class User extends Authenticatable
 >
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Permission\Traits\HasRoles;
+use Yusronarif\RBAC\Traits\HasRoles;
 
 class Page extends Model
 {
@@ -37,8 +37,8 @@ This package allows for users to be associated with permissions and roles. Every
 A `Role` and a `Permission` are regular Eloquent models. They require a `name` and can be created like this:
 
 ```php
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
+use Yusronarif\RBAC\Models\Role;
+use Yusronarif\RBAC\Models\Permission;
 
 $role = Role::create(['name' => 'writer']);
 $permission = Permission::create(['name' => 'edit articles']);
@@ -90,7 +90,7 @@ The `HasRoles` trait also adds a `role` scope to your models to scope the query 
 $users = User::role('writer')->get(); // Returns only users with the role 'writer'
 ```
 
-The `role` scope can accept a string, a `\Spatie\Permission\Models\Role` object or an `\Illuminate\Support\Collection` object.
+The `role` scope can accept a string, a `\Yusronarif\RBAC\Models\Role` object or an `\Illuminate\Support\Collection` object.
 
 The same trait also adds a scope to only get users that have a certain permission.
 
@@ -98,7 +98,7 @@ The same trait also adds a scope to only get users that have a certain permissio
 $users = User::permission('edit articles')->get(); // Returns only users with the permission 'edit articles' (inherited or directly)
 ```
 
-The scope can accept a string, a `\Spatie\Permission\Models\Permission` object or an `\Illuminate\Support\Collection` object.
+The scope can accept a string, a `\Yusronarif\RBAC\Models\Permission` object or an `\Illuminate\Support\Collection` object.
 
 
 ### Eloquent
@@ -109,4 +109,3 @@ $all_users_with_all_their_roles = User::with('roles')->get();
 $all_users_with_all_direct_permissions = User::with('permissions')->get();
 $all_roles_in_database = Role::all()->pluck('name');
 ```
-

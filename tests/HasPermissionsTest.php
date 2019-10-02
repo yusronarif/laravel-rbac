@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+use Yusronarif\RBAC\Contracts\Role;
+use Yusronarif\RBAC\Contracts\Permission;
+use Yusronarif\RBAC\Exceptions\GuardDoesNotMatch;
+use Yusronarif\RBAC\Exceptions\PermissionDoesNotExist;
 
 class HasPermissionsTest extends TestCase
 {

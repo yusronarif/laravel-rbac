@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\Permission\Models;
+namespace Yusronarif\RBAC\Models;
 
-use Spatie\Permission\Guard;
+use Yusronarif\RBAC\Guard;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Permission\Traits\HasPermissions;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\RoleAlreadyExists;
-use Spatie\Permission\Contracts\Role as RoleContract;
-use Spatie\Permission\Traits\RefreshesPermissionCache;
+use Yusronarif\RBAC\Traits\HasPermissions;
+use Yusronarif\RBAC\Exceptions\RoleDoesNotExist;
+use Yusronarif\RBAC\Exceptions\GuardDoesNotMatch;
+use Yusronarif\RBAC\Exceptions\RoleAlreadyExists;
+use Yusronarif\RBAC\Contracts\Role as RoleContract;
+use Yusronarif\RBAC\Traits\RefreshesPermissionCache;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
@@ -77,9 +77,9 @@ class Role extends Model implements RoleContract
      * @param string $name
      * @param string|null $guardName
      *
-     * @return \Spatie\Permission\Contracts\Role|\Spatie\Permission\Models\Role
+     * @return \Yusronarif\RBAC\Contracts\Role|\Yusronarif\RBAC\Models\Role
      *
-     * @throws \Spatie\Permission\Exceptions\RoleDoesNotExist
+     * @throws \Yusronarif\RBAC\Exceptions\RoleDoesNotExist
      */
     public static function findByName(string $name, $guardName = null): RoleContract
     {
@@ -113,7 +113,7 @@ class Role extends Model implements RoleContract
      * @param string $name
      * @param string|null $guardName
      *
-     * @return \Spatie\Permission\Contracts\Role
+     * @return \Yusronarif\RBAC\Contracts\Role
      */
     public static function findOrCreate(string $name, $guardName = null): RoleContract
     {
@@ -135,7 +135,7 @@ class Role extends Model implements RoleContract
      *
      * @return bool
      *
-     * @throws \Spatie\Permission\Exceptions\GuardDoesNotMatch
+     * @throws \Yusronarif\RBAC\Exceptions\GuardDoesNotMatch
      */
     public function hasPermissionTo($permission): bool
     {

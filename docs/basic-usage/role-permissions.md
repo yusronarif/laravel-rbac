@@ -46,7 +46,7 @@ $user->hasAllRoles(Role::all());
 ```
 
 The `assignRole`, `hasRole`, `hasAnyRole`, `hasAllRoles`  and `removeRole` functions can accept a
- string, a `\Spatie\Permission\Models\Role` object or an `\Illuminate\Support\Collection` object.
+ string, a `\Yusronarif\RBAC\Models\Role` object or an `\Illuminate\Support\Collection` object.
 
 A permission can be given to a role:
 
@@ -67,11 +67,11 @@ $role->revokePermissionTo('edit articles');
 ```
 
 The `givePermissionTo` and `revokePermissionTo` functions can accept a
-string or a `Spatie\Permission\Models\Permission` object.
+string or a `Yusronarif\RBAC\Models\Permission` object.
 
 
-Permissions are inherited from roles automatically. 
-Additionally, individual permissions can be assigned to the user too. 
+Permissions are inherited from roles automatically.
+Additionally, individual permissions can be assigned to the user too.
 For instance:
 
 ```php
@@ -83,9 +83,9 @@ $user->assignRole('writer');
 $user->givePermissionTo('delete articles');
 ```
 
-In the above example, a role is given permission to edit articles and this role is assigned to a user. 
+In the above example, a role is given permission to edit articles and this role is assigned to a user.
 Now the user can edit articles and additionally delete articles. The permission of 'delete articles' is the user's direct permission because it is assigned directly to them.
-When we call `$user->hasDirectPermission('delete articles')` it returns `true`, 
+When we call `$user->hasDirectPermission('delete articles')` it returns `true`,
 but `false` for `$user->hasDirectPermission('edit articles')`.
 
 This method is useful if one builds a form for setting permissions for roles and users in an application and wants to restrict or change inherited permissions of roles of the user, i.e. allowing to change only direct permissions of the user.
@@ -103,9 +103,9 @@ $user->getPermissionsViaRoles();
 $user->getAllPermissions();
 ```
 
-All these responses are collections of `Spatie\Permission\Models\Permission` objects.
+All these responses are collections of `Yusronarif\RBAC\Models\Permission` objects.
 
-If we follow the previous example, the first response will be a collection with the `delete article` permission and 
+If we follow the previous example, the first response will be a collection with the `delete article` permission and
 the second will be a collection with the `edit article` permission and the third will contain both.
 
 ### NOTE about using permission names in policies

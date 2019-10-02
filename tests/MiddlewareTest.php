@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
-use Spatie\Permission\Middlewares\RoleMiddleware;
-use Spatie\Permission\Exceptions\UnauthorizedException;
-use Spatie\Permission\Middlewares\PermissionMiddleware;
-use Spatie\Permission\Middlewares\RoleOrPermissionMiddleware;
+use Yusronarif\RBAC\Middlewares\RoleMiddleware;
+use Yusronarif\RBAC\Exceptions\UnauthorizedException;
+use Yusronarif\RBAC\Middlewares\PermissionMiddleware;
+use Yusronarif\RBAC\Middlewares\RoleOrPermissionMiddleware;
 
 class MiddlewareTest extends TestCase
 {

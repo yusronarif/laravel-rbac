@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Permission\Commands;
+namespace Yusronarif\RBAC\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
+use Yusronarif\RBAC\Models\Role;
+use Yusronarif\RBAC\Models\Permission;
 
 class Show extends Command
 {

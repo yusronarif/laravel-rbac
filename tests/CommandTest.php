@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
-use Spatie\Permission\Models\Role;
+use Yusronarif\RBAC\Models\Role;
 use Illuminate\Support\Facades\Artisan;
-use Spatie\Permission\Models\Permission;
+use Yusronarif\RBAC\Models\Permission;
 
 class CommandTest extends TestCase
 {

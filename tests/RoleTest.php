@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Models\Permission;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\RoleAlreadyExists;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+use Yusronarif\RBAC\Contracts\Role;
+use Yusronarif\RBAC\Models\Permission;
+use Yusronarif\RBAC\Exceptions\RoleDoesNotExist;
+use Yusronarif\RBAC\Exceptions\GuardDoesNotMatch;
+use Yusronarif\RBAC\Exceptions\RoleAlreadyExists;
+use Yusronarif\RBAC\Exceptions\PermissionDoesNotExist;
 
 class RoleTest extends TestCase
 {

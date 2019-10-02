@@ -12,7 +12,6 @@ In your application's tests, if you are not seeding roles and permissions as par
         parent::setUp();
 
         // now re-register all the roles and permissions
-        $this->app->make(\Spatie\Permission\PermissionRegistrar::class)->registerPermissions();
+        $this->app->make(\Yusronarif\RBAC\PermissionRegistrar::class)->registerPermissions();
     }
 ```
-

@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Middlewares;
+namespace Yusronarif\RBAC\Middlewares;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Spatie\Permission\Exceptions\UnauthorizedException;
+use Yusronarif\RBAC\Exceptions\UnauthorizedException;
 
 class RoleMiddleware
 {

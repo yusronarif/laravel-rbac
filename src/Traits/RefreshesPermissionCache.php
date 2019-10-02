@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Traits;
+namespace Yusronarif\RBAC\Traits;
 
-use Spatie\Permission\PermissionRegistrar;
+use Yusronarif\RBAC\PermissionRegistrar;
 
 trait RefreshesPermissionCache
 {

@@ -1,34 +1,34 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
 use Illuminate\Support\Facades\Cache;
-use Spatie\Permission\Contracts\Role;
+use Yusronarif\RBAC\Contracts\Role;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\Contracts\Permission;
+use Yusronarif\RBAC\PermissionRegistrar;
+use Yusronarif\RBAC\Contracts\Permission;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Permission\PermissionServiceProvider;
+use Yusronarif\RBAC\PermissionServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
-    /** @var \Spatie\Permission\Test\User */
+    /** @var \Yusronarif\RBAC\Test\User */
     protected $testUser;
 
-    /** @var \Spatie\Permission\Test\Admin */
+    /** @var \Yusronarif\RBAC\Test\Admin */
     protected $testAdmin;
 
-    /** @var \Spatie\Permission\Models\Role */
+    /** @var \Yusronarif\RBAC\Models\Role */
     protected $testUserRole;
 
-    /** @var \Spatie\Permission\Models\Role */
+    /** @var \Yusronarif\RBAC\Models\Role */
     protected $testAdminRole;
 
-    /** @var \Spatie\Permission\Models\Permission */
+    /** @var \Yusronarif\RBAC\Models\Permission */
     protected $testUserPermission;
 
-    /** @var \Spatie\Permission\Models\Permission */
+    /** @var \Yusronarif\RBAC\Models\Permission */
     protected $testAdminPermission;
 
     public function setUp(): void
@@ -82,7 +82,7 @@ abstract class TestCase extends Orchestra
         // Use test User model for users provider
         $app['config']->set('auth.providers.users.model', User::class);
 
-        $app['config']->set('cache.prefix', 'spatie_tests---');
+        $app['config']->set('cache.prefix', 'yusronarif_tests---');
     }
 
     /**

@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission;
+namespace Yusronarif\RBAC;
 
 use Illuminate\Routing\Route;
 use Illuminate\Support\Collection;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Spatie\Permission\Contracts\Role as RoleContract;
-use Spatie\Permission\Contracts\Permission as PermissionContract;
+use Yusronarif\RBAC\Contracts\Role as RoleContract;
+use Yusronarif\RBAC\Contracts\Permission as PermissionContract;
 
 class PermissionServiceProvider extends ServiceProvider
 {

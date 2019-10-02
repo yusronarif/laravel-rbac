@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission;
+namespace Yusronarif\RBAC;
 
 use Illuminate\Support\Collection;
 

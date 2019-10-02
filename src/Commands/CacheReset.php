@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\Commands;
+namespace Yusronarif\RBAC\Commands;
 
 use Illuminate\Console\Command;
-use Spatie\Permission\PermissionRegistrar;
+use Yusronarif\RBAC\PermissionRegistrar;
 
 class CacheReset extends Command
 {

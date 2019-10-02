@@ -26,7 +26,7 @@ HOWEVER, if you manipulate permission/role data directly in the database instead
 ### Manual cache reset
 To manually reset the cache for this package, you can run the following in your app code:
 ```php
-app()->make(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
+app()->make(\Yusronarif\RBAC\PermissionRegistrar::class)->forgetCachedPermissions();
 ```
 
 Or you can use an Artisan command:
@@ -37,8 +37,7 @@ php artisan permission:cache-reset
 
 ### Cache Identifier
 
-TIP: If you are leveraging a caching service such as `redis` or `memcached` and there are other sites 
-running on your server, you could run into cache clashes between apps. It is prudent to set your own 
-cache `prefix` in Laravel's `/config/cache.php` to something unique for each application. 
+TIP: If you are leveraging a caching service such as `redis` or `memcached` and there are other sites
+running on your server, you could run into cache clashes between apps. It is prudent to set your own
+cache `prefix` in Laravel's `/config/cache.php` to something unique for each application.
 This will prevent other applications from accidentally using/changing your cached data.
-

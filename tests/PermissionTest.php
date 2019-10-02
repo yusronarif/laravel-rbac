@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\Test;
+namespace Yusronarif\RBAC\Test;
 
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Exceptions\PermissionAlreadyExists;
+use Yusronarif\RBAC\Contracts\Permission;
+use Yusronarif\RBAC\Exceptions\PermissionAlreadyExists;
 
 class PermissionTest extends TestCase
 {

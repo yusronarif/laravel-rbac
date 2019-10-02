@@ -5,16 +5,16 @@
 
 <table>
    <tr>
-      <td><img src="http://spatie.github.io/laravel-permission/sponsor-logo.png"></td>
+      <td><img src="http://yusronarif.github.io/laravel-permission/sponsor-logo.png"></td>
       <td>If you want to quickly add authentication and authorization to Laravel projects, feel free to check Auth0's Laravel SDK and free plan at <a href="https://auth0.com/overview?utm_source=GHsponsor&utm_medium=GHsponsor&utm_campaign=laravel-permission&utm_content=auth">https://auth0.com/overview</a>.</td>
    </tr>
 </table>
 
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-permission.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-permission)
-[![Build Status](https://img.shields.io/travis/spatie/laravel-permission/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-permission)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
+[![Build Status](https://img.shields.io/travis/yusronarif/laravel-rbac/master.svg?style=flat-square)](https://travis-ci.org/yusronarif/laravel-rbac)
 [![StyleCI](https://styleci.io/repos/42480275/shield)](https://styleci.io/repos/42480275)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-permission.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-permission)
+[![Total Downloads](https://img.shields.io/packagist/dt/yusronarif/laravel-rbac.svg?style=flat-square)](https://packagist.org/packages/yusronarif/laravel-rbac)
 
 This package allows you to manage user permissions and roles in a database.
 
@@ -103,7 +103,7 @@ Special thanks to [Alex Vanderbist](https://github.com/AlexVanderbist) who great
 
 Spatie is a web design agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
-Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/spatie). 
+Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/spatie).
 All pledges will be dedicated to allocating workforce on maintenance and new awesome stuff.
 
 ## License
