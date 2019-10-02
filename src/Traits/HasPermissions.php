@@ -4,12 +4,12 @@ namespace Yusronarif\RBAC\Traits;
 
 use Yusronarif\RBAC\Guard;
 use Illuminate\Support\Collection;
-use Illuminate\Database\Eloquent\Builder;
 use Yusronarif\RBAC\PermissionRegistrar;
+use Illuminate\Database\Eloquent\Builder;
 use Yusronarif\RBAC\Contracts\Permission;
 use Yusronarif\RBAC\Exceptions\GuardDoesNotMatch;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Yusronarif\RBAC\Exceptions\PermissionDoesNotExist;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 trait HasPermissions
 {
