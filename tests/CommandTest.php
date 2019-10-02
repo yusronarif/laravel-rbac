@@ -3,8 +3,8 @@
 namespace Yusronarif\RBAC\Test;
 
 use Yusronarif\RBAC\Models\Role;
-use Illuminate\Support\Facades\Artisan;
 use Yusronarif\RBAC\Models\Permission;
+use Illuminate\Support\Facades\Artisan;
 
 class CommandTest extends TestCase
 {

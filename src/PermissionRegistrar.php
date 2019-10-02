@@ -5,8 +5,8 @@ namespace Yusronarif\RBAC;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Collection;
 use Yusronarif\RBAC\Contracts\Role;
-use Illuminate\Contracts\Auth\Access\Gate;
 use Yusronarif\RBAC\Contracts\Permission;
+use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Yusronarif\RBAC\Exceptions\PermissionDoesNotExist;
 

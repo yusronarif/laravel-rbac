@@ -4,8 +4,8 @@ namespace Yusronarif\RBAC\Traits;
 
 use Illuminate\Support\Collection;
 use Yusronarif\RBAC\Contracts\Role;
-use Illuminate\Database\Eloquent\Builder;
 use Yusronarif\RBAC\PermissionRegistrar;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 trait HasRoles
